@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+}
+
+.btn-primary:hover {
+    background-color: #c70039;
+    border-color: #c70039;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.card-container {
+    position: relative;
+}
+.card {
+    background-color: #2c3e50;
+    width: 500px;
+    border: none;
+    margin: 20px 60px;
+}
+.card-title{
+    color: #818181;
+}
+.card-text {
+    color: #ecf0f1;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.card .row {
+    height: 250px;
+    width: 500px;
+}
+.bg-dark {
+    background-color: #2c3e50 !important;
+}
+
+.cardDepoimento {
+    background-color: #2c3e50;
+    border: none;
+    margin: 20px 0;
+}
+.cardDepoimento .row {
+    height: 250px;
+    width: 500px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #ecf0f1;
+}
+
+.footer-icons i:hover {
+    color: #ff4c4c;
+}
+
+.carousel-item img {
+    height: 300px; /* Ajuste conforme necessário */
+    object-fit: cover; /* Redimensionar a imagem para cobrir o contêiner mantendo a proporção */
+}
+#carousel-container {
+    background-color: #283747; /* Cor de fundo azul escuro */
+    width: 100%; /* 70% do tamanho da tela */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 150px; /* Espaçamento interno */
+  }
+
+  /* Definindo a altura do carrossel */
+  #carouselExampleIndicators {
+    height: 600px; /* Ajuste conforme necessário */
+  }
+
+  /* Estilizando as imagens do carrossel */
+  .carousel-item img {
+    height: 100%; /* Assegura que a imagem preencha toda a altura do contêiner */
+    object-fit: cover; /* Redimensiona a imagem para cobrir o contêiner mantendo a proporção */
+  }
